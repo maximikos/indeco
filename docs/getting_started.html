@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Setting up Your Python Environment &#8212; Scientific Python QuickStart</title>
+    <title>Setting up Your Python Environment &#8212; Environmental systems analysis</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -73,10 +73,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
-      <img src="../_static/qe-logo-large.png" class="logo" alt="logo">
+      <img src="../_static/IndustrialEcology_logo_tiny.jpg" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">Scientific Python QuickStart</h1>
+      <h1 class="site-logo" id="site-title">Environmental systems analysis</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
@@ -84,25 +84,105 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="current nav bd-sidenav">
+        <p class="caption">
+ <span class="caption-text">
+  Basic intro
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="ground_zero.html">
+   Introduction
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="motivation.html">
+     Motivation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="env_science.html">
+     Environmental science
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="indecol.html">
+     Industrial Ecology
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Research methods
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="about_py.html">
-   About Python
+  <a class="reference internal" href="research_methods.html">
+   Research methods
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Setting up Your Python Environment
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Python intro
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="sci_py.html">
+   Scientific Python QuickStart
   </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="about_py.html">
+     About Python
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Setting up Your Python Environment
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="python_by_example.html">
+     An Introductory Example
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="learn_more.html">
+     Learn More
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="python_by_example.html">
-   An Introductory Example
+  <a class="reference internal" href="ie_github.html">
+   Computational tools
   </a>
  </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  About
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="learn_more.html">
-   Learn More
+  <a class="reference internal" href="about.html">
+   About
   </a>
  </li>
 </ul>
@@ -174,7 +254,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/quantecon-mini-example/master?urlpath=tree/mini_book/docs/getting_started.md"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/maximikos/indeco/master?urlpath=tree/mini_book/docs/getting_started.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -494,9 +574,9 @@ your code.</p>
 <p>On that page, you’ll see the following code</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
 
 <span class="c1"># Fixing random state for reproducibility</span>
 <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">19680801</span><span class="p">)</span>
@@ -514,9 +594,6 @@ your code.</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../_images/getting_started_1_0.png" src="../_images/getting_started_1_0.png" />
 </div>
 </div>
 <p>Don’t worry about the details for now — let’s just run it and see
@@ -650,7 +727,7 @@ run as discussed above.</p>
     <div class="container">
       <p>
         
-          By Thomas J. Sargent and John Stachurski<br/>
+          By Max Koslowski<br/>
         
             &copy; Copyright 2021.<br/>
       </p>
