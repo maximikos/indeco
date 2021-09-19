@@ -1,0 +1,25 @@
+format: jb-book
+root: docs/index
+parts:
+- caption: Basic intro
+  chapters:
+  - file: docs/ground_zero
+    sections:
+      - file: docs/motivation
+      - file: docs/env_science
+      - file: docs/indecol
+- caption: Research methods
+  chapters:
+  - file: docs/research_methods
+- caption: Python intro
+  chapters:
+  - file: docs/sci_py
+    sections:
+      - file: docs/about_py
+      - file: docs/getting_started
+      - file: docs/python_by_example
+      - file: docs/learn_more
+  - file: docs/ie_github
+- caption: About
+  chapters:
+  - file: docs/about
