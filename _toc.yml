@@ -13,12 +13,12 @@ parts:
   - file: docs/research_methods
 - caption: Python intro
   chapters:
-  - file: docs/sci_py
+  - file: docs/python/sci_py
     sections:
-      - file: docs/about_py
-      - file: docs/getting_started
-      - file: docs/python_by_example
-      - file: docs/learn_more
+      - file: docs/python/about_py
+      - file: docs/python/getting_started
+      - file: docs/python/python_by_example
+      - file: docs/python/learn_more
   - file: docs/ie_github
 - caption: About
   chapters:

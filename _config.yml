@@ -7,11 +7,25 @@ description: >-
   An overview of the research fields industrial ecology and environmental systems analysis.
 
 execute:
-  execute_notebooks           : cache
+  execute_notebooks           : off # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
 
 # HTML-specific settings
 html:
-  home_page_in_navbar         : false
+  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
+  use_repository_button     : true  # Whether to add a link to your repository button
+  use_issues_button         : true  # Whether to add an "open an issue" button
+  comments:                         # Add ability for comments via utterances and hypothesis
+    utterances:
+      repo: "github-org/github-repo"
+    hypothesis              : true
+  extra_footer              :
+                              <p>
+                              ... Add license info here...
+                              </p>
+
+sphinx:
+  config:
+    html_show_copyright       : false
 
 # Interact link settings
 notebook_interface            : "notebook"
@@ -19,7 +33,7 @@ notebook_interface            : "notebook"
 # Launch button settings
 repository:
   url                         : https://github.com/maximikos/indeco
-  path_to_book                : "mini_book"
+  path_to_book                : "" # was before: mini_book
 
 binder:
   binderhub_url               : "https://mybinder.org"
@@ -32,3 +46,6 @@ latex:
   latex_engine                : "xelatex"
   latex_documents:
     targetname: book.tex
+
+# Exclude files
+exclude_patterns: [docs/python/*]

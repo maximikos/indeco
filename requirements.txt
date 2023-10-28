@@ -1,0 +1,6 @@
+# Contains the Python package requirements for any code executed during "build" or for interactive code via Binder. For the latter case, the .binder/requirements.txt file points here.
+jupyter-book
+ghp-import
+sphinx-thebe
+pandas
+plotly
