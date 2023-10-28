@@ -1,43 +1,62 @@
-title : Environmental systems analysis
+title : "" # Environmental systems analysis
 author: Maximilian Koslowski
+copyright: "2023"
 logo: 'nemora_logo.png'
+exclude_patterns: [docs/python/*]
 
+################################################################################
 # Short description about the book
 description: >-
   An overview of the research fields industrial ecology and environmental systems analysis.
 
-execute:
-  execute_notebooks           : off # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
-
+################################################################################
+# Adding extra funcctionality on the page
 # HTML-specific settings
 html:
-  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
+  home_page_in_navbar       : false  # Whether to include your home page in the left Navigation Bar
   use_repository_button     : true  # Whether to add a link to your repository button
   use_issues_button         : true  # Whether to add an "open an issue" button
+  
+  use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
+
   comments:                         # Add ability for comments via utterances and hypothesis
     utterances:
       repo: "maximikos/indeco"
     hypothesis: true
+
   extra_footer:
     <p>
-    &#x1F3D4; &#127754; &#x1F332; <a href="./docs/special/privacy.md">Privacy policy</a>
+    &#x1F3D4; &#127754; &#x1F332; <a href="./special/privacy.md">Privacy policy</a>
     </p>
 
+################################################################################
+# Settings for external services
+# Sphinx settings
 sphinx:
   config:
     html_show_copyright       : false
+    language                  : en   # include explicitly for accessibility
+    mathjax_path            : https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-# Interact link settings
-notebook_interface            : "notebook"
+# Binder settings
+binder:
+  binderhub_url               : "https://mybinder.org"
+  text                        : "Launch binder"
+
+
+################################################################################
+# Notebook and repo settings
+# Notebooks
+execute:
+  execute_notebooks           : off # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
+
+notebook_interface            : "notebook" # Interact link settings
 
 # Launch button settings
 repository:
   url                         : https://github.com/maximikos/indeco
+  branch                      : main
   path_to_book                : "" # was before: mini_book
-
-binder:
-  binderhub_url               : "https://mybinder.org"
-  text                        : "Launch binder"
 
 # LaTeX settings
 bibtex_bibfiles:
@@ -46,6 +65,3 @@ latex:
   latex_engine                : "xelatex"
   latex_documents:
     targetname: book.tex
-
-# Exclude files
-exclude_patterns: [docs/python/*]
