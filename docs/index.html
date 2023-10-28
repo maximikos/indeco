@@ -308,6 +308,23 @@ title="Open an issue"
 
       </li>
       
+      <li>
+        <a href="https://github.com/maximikos/indeco/edit/main/docs/index.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
     </ul>
   </div>
 </div>
@@ -383,6 +400,9 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="environmental-pressures-and-impacts">
 <h1>Environmental pressures and impacts<a class="headerlink" href="#environmental-pressures-and-impacts" title="Permalink to this headline">#</a></h1>
+<blockquote>
+<div><p><em>Last edited by</em> <a href=”https://github.com/maximikos“ target="_blank"><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> <em>on</em> <i><a id="current_date"></a></i></p>
+</div></blockquote>
 <p>In our modern globalised world, pressures on ecosystems and the resulting impacts are ever increasing. Pollution, land use, and water stress are just a few of these dimensions. In the end, human activities are responsible for the major part of global environmental change, both directly and indirectly. Over the course of the last few decades multiple research streams got established with the focus of analysis this environmental change, its causes, and its implications. These research streams can be summarised under the terms industrial ecology and quantitative systems analysis. This is a short introduction to these fields of research fields.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -398,15 +418,14 @@ title="Print to PDF"
 <p class="admonition-title">What can you expect?</p>
 <p>On the following pages, you will be introduced to the general mindset necessary for such complex analysis, the research methods as such (including life cycle assessment, material flow analysis, and input-output analysis), and examples of how they are applied. In addition, we are planning on presenting real-life research examples.</p>
 </div>
-<blockquote>
-<div><p><em>Last edited by</em> <a href=”https://github.com/maximikos“ target="_blank"><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> <em>on</em> <i><a id="current_date"></a></i></p>
-</div></blockquote>
 <div id="current_date">
     <script>
+        function displayResult() {
         const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         const date = new Date();
         const dayName = daysOfWeek[date.getDay()];
         document.getElementById("current_date").innerHTML = `${dayName}, ${date.toLocaleDateString()}`;
+        }
     </script>
 </div>
 <script src="https://utteranc.es/client.js"
