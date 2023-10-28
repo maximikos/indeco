@@ -21,12 +21,15 @@ html:
 
   extra_navbar              : "" #Powered by <a href="https://jupyterbook.org">Jupyter Book</a>  # Will be displayed underneath the left navbar. (Or simply remove this line to display extra_navbar)
 
-  comments:                         # Add ability for comments via utterances and hypothesis
+  comments:                         # Add ability for comments via utterances and hypothesis. It seams that the site-wide setting for utterances does not work.
     utterances:
       src: "https://utteranc.es/client.js"
       repo: "maximikos/indeco"
       issue-term: "pathname"
       theme: "github-light"
+      crossorigin: "anonymous"
+      async: "async"
+      label: "💬 comment"
       crossorigin: "anonymous"
     hypothesis: true
 

@@ -21,7 +21,7 @@ On the following pages, you will be introduced to the general mindset necessary 
 
 
 
-> *Last edited by* <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on* <i><a id="current_date"></a></i>
+> *Last edited by* <a href=”https://github.com/maximikos“ target="_blank"><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on* <i><a id="current_date"></a></i>
 
 <div id="current_date">
     <script>

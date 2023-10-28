@@ -17,8 +17,7 @@ Some brief description of MFA with `some code`!
 ````
 
 
----
-> #edited by <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" title="GitHub user name" width="50" border-radius="200" /></a> Max Koslowski
+> *Last edited by* <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on* <i><a id="current_date"></a></i>
 
 
 % This HTML activates utterances only on this page
