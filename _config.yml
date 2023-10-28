@@ -16,12 +16,12 @@ html:
   use_issues_button         : true  # Whether to add an "open an issue" button
   comments:                         # Add ability for comments via utterances and hypothesis
     utterances:
-      repo: "github-org/github-repo"
-    hypothesis              : true
-  extra_footer              :
-                              <p>
-                              ... Add license info here...
-                              </p>
+      repo: "maximikos/indeco"
+    hypothesis: true
+  extra_footer:
+    <p>
+    :mountain_snow: :ocean: :evergreen_tree: [Privacy policy](./docs/special/privacy.md)
+    </p>
 
 sphinx:
   config:
