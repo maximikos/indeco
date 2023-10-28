@@ -19,9 +19,15 @@ html:
   
   use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
 
+  extra_navbar              : "" #Powered by <a href="https://jupyterbook.org">Jupyter Book</a>  # Will be displayed underneath the left navbar. (Or simply remove this line to display extra_navbar)
+
   comments:                         # Add ability for comments via utterances and hypothesis
     utterances:
+      src: "https://utteranc.es/client.js"
       repo: "maximikos/indeco"
+      issue-term: "pathname"
+      theme: "github-light"
+      crossorigin: "anonymous"
     hypothesis: true
 
   extra_footer:
@@ -34,7 +40,7 @@ html:
 # Sphinx settings
 sphinx:
   config:
-    html_show_copyright       : false
+    html_show_copyright       : true
     language                  : en   # include explicitly for accessibility
     mathjax_path            : https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 

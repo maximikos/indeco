@@ -213,10 +213,6 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="bd-sidebar__bottom">
              <!-- To handle the deprecated key -->
             
-            <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-            </div>
-            
         </div>
     </div>
     <div id="rtd-footer-container"></div>
@@ -402,18 +398,24 @@ title="Print to PDF"
 <p class="admonition-title">What can you expect?</p>
 <p>On the following pages, you will be introduced to the general mindset necessary for such complex analysis, the research methods as such (including life cycle assessment, material flow analysis, and input-output analysis), and examples of how they are applied. In addition, we are planning on presenting real-life research examples.</p>
 </div>
+<blockquote>
+<div><p><em>Last edited by</em> <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> <em>on</em> <i><a id="current_date"></a></i></p>
+</div></blockquote>
+<div id="current_date">
+    <script>
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const date = new Date();
+        const dayName = daysOfWeek[date.getDay()];
+        document.getElementById("current_date").innerHTML = `${dayName}, ${date.toLocaleDateString()}`;
+    </script>
+</div>
 <script src="https://utteranc.es/client.js"
         repo="maximikos/indeco"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script>
-<hr class="docutils" />
-<blockquote>
-<div><p><em>Edited by</em> <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a></p>
-</div></blockquote>
-<div class="toctree-wrapper compound">
+</script><div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
 </div>
@@ -466,6 +468,7 @@ title="Print to PDF"
   
     By Maximilian Koslowski<br/>
   
+      &copy; Copyright 2023.<br/>
     <div class="extra_footer">
       <p> &#x1F3D4; &#127754; &#x1F332; <a href="./special/privacy.md">Privacy policy</a> </p>
     </div>
