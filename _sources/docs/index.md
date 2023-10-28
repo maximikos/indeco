@@ -19,6 +19,20 @@ If you are curious to learn how this kind of questions can be answered, you migh
 On the following pages, you will be introduced to the general mindset necessary for such complex analysis, the research methods as such (including life cycle assessment, material flow analysis, and input-output analysis), and examples of how they are applied. In addition, we are planning on presenting real-life research examples.
 :::
 
+
+
+> *Last edited by* <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on* <i><a id="current_date"></a></i>
+
+<div id="current_date">
+    <script>
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const date = new Date();
+        const dayName = daysOfWeek[date.getDay()];
+        document.getElementById("current_date").innerHTML = `${dayName}, ${date.toLocaleDateString()}`;
+    </script>
+</div>
+
+
 <script src="https://utteranc.es/client.js"
         repo="maximikos/indeco"
         issue-term="pathname"
@@ -26,7 +40,3 @@ On the following pages, you will be introduced to the general mindset necessary 
         crossorigin="anonymous"
         async>
 </script>
-
-
----
-> *Edited by* <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a>
