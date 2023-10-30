@@ -8,6 +8,9 @@ parts:
       - file: docs/motivation
       - file: docs/env_science
       - file: docs/indecol
+- caption: Sustainability science
+  chapters:
+  - file: docs/sust_science/what_is_it
 - caption: Research methods
   chapters:
   - file: docs/research_methods

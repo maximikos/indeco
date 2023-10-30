@@ -24,12 +24,10 @@ On the following pages, you will be introduced to the general mindset necessary 
 
 <div id="current_date">
     <script>
-        function displayResult() {
         const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         const date = new Date();
         const dayName = daysOfWeek[date.getDay()];
         document.getElementById("current_date").innerHTML = `${dayName}, ${date.toLocaleDateString()}`;
-        }
     </script>
 </div>
 

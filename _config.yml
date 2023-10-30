@@ -1,5 +1,5 @@
 title : "" # Environmental systems analysis
-author: Maximilian Koslowski
+author: International Society for Industrial Ecology
 copyright: "2023"
 logo: 'nemora_logo.png'
 exclude_patterns: [docs/python/*]
