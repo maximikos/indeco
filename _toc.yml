@@ -8,12 +8,15 @@ parts:
       - file: docs/motivation
       - file: docs/env_science
       - file: docs/indecol
+
 - caption: Sustainability science
   chapters:
   - file: docs/sust_science/what_is_it
+
 - caption: Research methods
   chapters:
   - file: docs/research_methods
+
 - caption: Python intro
   chapters:
   - file: docs/python/sci_py
@@ -23,6 +26,7 @@ parts:
       - file: docs/python/python_by_example
       - file: docs/python/learn_more
   - file: docs/ie_github
+  
 - caption: About
   chapters:
   - file: docs/about

@@ -45,7 +45,9 @@ sphinx:
   config:
     html_show_copyright       : true
     language                  : en   # include explicitly for accessibility
+    today_fmt                 : '%d %b %Y'
     mathjax_path            : https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 
 # Binder settings
 binder:

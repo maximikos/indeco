@@ -35,6 +35,7 @@ On the following pages, you will be introduced to the general mindset necessary 
 <script src="https://utteranc.es/client.js"
         repo="maximikos/indeco"
         issue-term="pathname"
+        label="🔮"
         theme="github-light"
         crossorigin="anonymous"
         async>
