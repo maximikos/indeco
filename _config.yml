@@ -19,7 +19,8 @@ html:
   
   use_edit_page_button      : true  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
 
-  extra_navbar              : "" #Powered by <a href="https://jupyterbook.org">Jupyter Book</a>  # Will be displayed underneath the left navbar. (Or simply remove this line to display extra_navbar)
+  extra_navbar              : Visit our <a href="https://github.com/maximikos/indeco">GitHub Repository</a>
+    <div>This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>  # Will be displayed underneath the left navbar. (Or simply remove this line to display extra_navbar, i.e. put "")
 
   comments:                         # Add ability for comments via utterances and hypothesis. It seams that the site-wide setting for utterances does not work.
     utterances:
@@ -44,6 +45,8 @@ html:
 sphinx:
   config:
     html_show_copyright       : true
+    html_js_files:
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     language                  : en   # include explicitly for accessibility
     today_fmt                 : '%d %b %Y'
     mathjax_path            : https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -76,3 +79,13 @@ latex:
   latex_engine                : "xelatex"
   latex_documents:
     targetname: book.tex
+
+
+#######################################################################################
+# Parse and render settings
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - dollarmath
+    - linkify
+    - substitution
