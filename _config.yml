@@ -13,6 +13,7 @@ description: >-
 # Adding extra funcctionality on the page
 # HTML-specific settings
 html:
+  favicon                   : "./favicon.ico"
   home_page_in_navbar       : false  # Whether to include your home page in the left Navigation Bar
   use_repository_button     : true  # Whether to add a link to your repository button
   use_issues_button         : true  # Whether to add an "open an issue" button
