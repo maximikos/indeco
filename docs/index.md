@@ -1,3 +1,7 @@
+<head>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
 # Environmental pressures and impacts 
 
 > *Last edited by* <a href=”https://github.com/maximikos“ target="_blank"><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on* <i><a id="current_date"></a></i>
@@ -39,4 +43,16 @@ On the following pages, you will be introduced to the general mindset necessary 
         theme="github-light"
         crossorigin="anonymous"
         async>
+</script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
 </script>

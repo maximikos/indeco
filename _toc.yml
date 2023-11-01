@@ -17,6 +17,10 @@ parts:
   chapters:
   - file: docs/research_methods
 
+- caption: A blog
+  chapters:
+  - file: docs/blog/2023-11-01_Foo
+
 - caption: Python intro
   chapters:
   - file: docs/python/sci_py
