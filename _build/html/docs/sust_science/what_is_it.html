@@ -512,16 +512,39 @@ title="Print to PDF"
                 
               <div>
                 
-  <p>data = {frontmatter.date}</p>
-<p>another date = <a href="#id1"><span class="problematic" id="id2">:role:`today`</span></a></p>
-<p>{ .date }</p>
-<p>{ date }</p>
-<p></p>
-<p></p>
-<p><span class="xref std std-ref">date</span></p>
-<p><a href="#id3"><span class="problematic" id="id4">:eval:`date`</span></a></p>
-<p>another date = 01 Nov 2023 Blabla | 57 words | 0 min read</p>
-<p>And again another date = <a href="#id5"><span class="problematic" id="id6">:sub-ref:`date`</span></a></p>
+  <!--
+data = {frontmatter.date}
+
+another date = {role}`today`
+
+{{date}}
+
+{{.python date}}
+
+{{ .date }}
+
+{ .date }
+
+{{ .Date }}
+
+{{ $doc.date }}
+
+{ date }
+
+{glue:}`date`
+
+{glue:text}`date`
+
+{{< meta date-modified >}}
+
+{ref}`date`
+
+{eval}`date`
+
+another date = {sub-ref}`today` Blabla | {sub-ref}`wordcount-words` words | {sub-ref}`wordcount-minutes` min read
+
+[comment]: # (And again another date = {sub-ref}`date`)
+--->
 <section class="tex2jax_ignore mathjax_ignore" id="what-is-sustainability-science">
 <h1>What is sustainability science?<a class="headerlink" href="#what-is-sustainability-science" title="Permalink to this headline">#</a></h1>
 <p>blabla</p>

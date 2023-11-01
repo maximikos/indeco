@@ -11,6 +11,7 @@ authors:
       - validation
 ---
 
+<!--
 data = {frontmatter.date}
 
 another date = {role}`today`
@@ -41,7 +42,8 @@ another date = {role}`today`
 
 another date = {sub-ref}`today` Blabla | {sub-ref}`wordcount-words` words | {sub-ref}`wordcount-minutes` min read
 
-And again another date = {sub-ref}`date`
+[comment]: # (And again another date = {sub-ref}`date`)
+--->
 
 # What is sustainability science?
 
