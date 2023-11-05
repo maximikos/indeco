@@ -1,7 +1,7 @@
 format: jb-book
 root: docs/index
 parts:
-- caption: Basic intro
+- caption: Overview
   chapters:
   - file: docs/ground_zero
     sections:
@@ -20,17 +20,9 @@ parts:
 - caption: A blog
   chapters:
   - file: docs/blog/2023-11-01_Foo
-
-- caption: Python intro
-  chapters:
-  - file: docs/python/sci_py
-    sections:
-      - file: docs/python/about_py
-      - file: docs/python/getting_started
-      - file: docs/python/python_by_example
-      - file: docs/python/learn_more
-  - file: docs/ie_github
+  - file: docs/blog/2023-11-01_Bar
   
 - caption: About
   chapters:
-  - file: docs/about
+  - file: docs/about/who_we_are
+  - file: docs/about/project_goal
