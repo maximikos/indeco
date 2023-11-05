@@ -1,6 +1,4 @@
-<head>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 # Environmental pressures and impacts 
 
