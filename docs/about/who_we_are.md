@@ -1,6 +1,6 @@
 ---
 layout: about
-title: "Who we are?"
+title: Who we are?
 date: 30 October 2023
 date-modified: last-modified
 authors:
@@ -10,21 +10,44 @@ authors:
       - writing
       - editing, review
       - validation
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
 ---
-<h1>{{ .page.title }}</h1>
+<h1>{{ .layout.title }}</h1>
 
-<h1>{{ .Page.title }}</h1>
+<h1>{{ .Layout.title }}</h1>
 
-<h1>{{ page.title }}</h1>
+<h1>{{ layout.title }}</h1>
 
-<h1>{{ Page.title }}</h1>
+<h1>{{ Layout.title }}</h1>
 
-<h1>{{ title }}</h1>
+<h1>{{ content.title }}</h1>
+
+<h1>{{ Content.title }}</h1>
+
+{{ title }}
+
+{ title }
 
 # Who we are
 
+hello {{ $.Page.title }}
 
-# {{ $frontmatter.title }}
+hello {{ $.Page.Param.title }}
+
+# hello {{ $frontmatter.title }}
+
+# {{ frontmatter.title }}
+
+{ frontmatter.title }
+{frontmatter.title}
 
 > *Last edited by* <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on* <i><a id="current_date"></a></i>
 
