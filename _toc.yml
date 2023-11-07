@@ -3,26 +3,32 @@ root: docs/index
 parts:
 - caption: Overview
   chapters:
-  - file: docs/ground_zero
+  - file: docs/overview/introduction
+  - file: docs/overview/dry
     sections:
-      - file: docs/motivation
-      - file: docs/env_science
-      - file: docs/indecol
-
-- caption: Sustainability science
-  chapters:
-  - file: docs/sust_science/what_is_it
-
-- caption: Research methods
-  chapters:
-  - file: docs/research_methods
+      - file: docs/overview/history
+      - file: docs/overview/concepts
+      - file: docs/overview/methods
+      - file: docs/overview/interactive
+      - file: docs/overview/tests
 
 - caption: A blog
   chapters:
   - file: docs/blog/2023-11-01_Foo
   - file: docs/blog/2023-11-01_Bar
+
+- caption: Miscellaneous
+  chapters:
+  - file: docs/miscellaneous/glossary
+  - file: docs/miscellaneous/journals
+  - file: docs/miscellaneous/tools
+    sections:
+    - file: docs/miscellaneous/tools/lca_software
+    - file: docs/miscellaneous/tools/io_databases
   
 - caption: About
   chapters:
   - file: docs/about/who_we_are
   - file: docs/about/project_goal
+  - url: https://is4ie.org/
+    title: The ISIE website

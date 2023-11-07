@@ -1,7 +1,7 @@
 title : "" # Environmental systems analysis
 author: International Society for Industrial Ecology
 copyright: "2023"
-logo: 'nemora_logo.png'
+logo: 'nemora_logo_small.png'
 exclude_patterns: [docs/python/*]
 
 ################################################################################
