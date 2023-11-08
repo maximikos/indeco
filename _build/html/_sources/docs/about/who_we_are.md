@@ -63,12 +63,13 @@ hello {{ $.Page.Param.title }}
 
 # Who we are
 
-> *Last edited by* <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on* <i><a id="current_date"></a></i>
+> *Last edited by* <a href=”https://github.com/maximikos“><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on 05/11/2023*
 
 The world is complex. And here we want to show you how we can account for this complexity and the associated environmental and socio-economic repercussions. Methods such as life cycle assessment and material flow analysis are introduced and applied in many small examples. In addition, actual research insights are provided which are broken down into simple language - as much as this is possible.
 
 This website is now about to be updated as part of the ISIE website project.
 
+<!--
 % This HTML activates utterances only on this page
 ```{raw} html
 <script
@@ -82,3 +83,13 @@ This website is now about to be updated as part of the ISIE website project.
    crossorigin="anonymous"
 />
 ```
+--->
+
+<script src="https://utteranc.es/client.js"
+        repo="maximikos/indeco"
+        issue-term="pathname"
+        label="🔮"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

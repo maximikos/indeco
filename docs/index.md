@@ -1,5 +1,10 @@
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://github.com/maximikos/indeco)
+![Static Badge](https://img.shields.io/badge/under_development-orange)
+[![Static Badge](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
 # Welcome 👋
 
 > *Last edited by* <a href=”https://github.com/maximikos“ target="_blank"><img src="https://github.com/maximikos.png" alt="GitHub user" title="Max Koslowski" width="40" style="border-radius: 50%" /></a> *on* <i><a id="current_date"></a></i>

@@ -35,7 +35,7 @@ Bjelle, E. L., Wood, R., & Hertwich, E. G. (2020). The global carbon footprint o
 
 Dietzenbacher, E., Los, B., Stehrer, R., Timmer, M. P., & de Vries, G. J. (2013). The construction of world input–output tables in the WIOD project. Economic Systems Research, 25(1), 71-98.
 
-EMERGING. (n.d.). [Database].
+EMERGING. (n.d.). [Database]().
 
 Lenzen, M., Geschke, A., & Wiedmann, T. (2017). The Eora MRIO database: economic input–output tables with environmental extensions for Australia, Canada, and the rest of the world. Economic Systems Research, 29(3), 275-295.
 

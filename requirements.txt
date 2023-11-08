@@ -5,6 +5,8 @@ sphinx-thebe
 pandas
 plotly
 myst-parser
+myst-nb
 altair
 vega_datasets
 bokeh
+jupytext

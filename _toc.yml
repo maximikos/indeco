@@ -7,10 +7,12 @@ parts:
   - file: docs/overview/dry
     sections:
       - file: docs/overview/history
+        title: History
       - file: docs/overview/concepts
       - file: docs/overview/methods
       - file: docs/overview/interactive
       - file: docs/overview/tests
+        title: Embedded content
 
 - caption: A blog
   chapters:

@@ -15,16 +15,16 @@ An overview of research methods used in industrial ecology.
 ## Lifecycle assessment
 Lifecycle assessment (LCA) is a methodology within the field of industrial ecology that systematically examines local, regional, and global materials, and energy flows in products, processes, industrial sectors, and economies (Cockerill, 2013). It is a tool used to evaluate the environmental impacts associated with all the stages of a product's life from raw material extraction through materials processing, manufacture, distribution, use, repair and maintenance, and disposal or recycling (Yang et al., 2020).
 
-Industrial ecology, as a field, takes a systems view of industrial activity, especially design and manufacturing processes, with a major effort being the elimination or substantial reduction of the environmental impact of manufacturing processes and the use and disposal of the products (Laudwe & Taylor-Smith, 1998). It promotes the concept of an industrial system that operates in concert with rather than isolated from surrounding ecosystems, with the aim of optimizing the material flows and cycles (Wahrlich & Simioni, 2019).
+Industrial ecology, as a field, takes a systems view of industrial activity, especially design and manufacturing processes, with a major effort being the elimination or substantial reduction of the environmental impact of manufacturing processes and the use and disposal of the products (Laudwe \& Taylor-Smith, 1998). It promotes the concept of an industrial system that operates in concert with rather than isolated from surrounding ecosystems, with the aim of optimizing the material flows and cycles (Wahrlich \& Simioni, 2019).
 
 In the context of industrial ecology, LCA is used to identify opportunities to improve the environmental performance of products at various points in their life cycle, to inform decision-makers in industry, government, or non-government organizations (NGOs) for the purpose of strategic planning, priority setting, product or process design or redesign, and more (Yang et al., 2020).
 
 ## Material flow analysis
-Material Flow Analysis (MFA) is a method within the field of Industrial Ecology (IE) that systematically examines local, regional, and global materials and energy flows in products, processes, industrial sectors, and economies (Cockerill, 2013). It is a tool used to understand the interactions between human activities and the environment, focusing on the flow and use of resources throughout the life cycle of a product or process, from the extraction of raw materials to the disposal of waste (Lifset & Graedel, 2002).
+Material Flow Analysis (MFA) is a method within the field of Industrial Ecology (IE) that systematically examines local, regional, and global materials and energy flows in products, processes, industrial sectors, and economies (Cockerill, 2013). It is a tool used to understand the interactions between human activities and the environment, focusing on the flow and use of resources throughout the life cycle of a product or process, from the extraction of raw materials to the disposal of waste (Lifset \& Graedel, 2002).
 
 MFA is used to identify and quantify the inputs and outputs of a system, providing a comprehensive understanding of the material and energy exchanges within and between different systems (Yang et al., 2020). This approach allows for the identification of inefficiencies, potential improvements, and the environmental impacts associated with these flows.
 
-In the context of IE, MFA is used to promote the concept of an industrial system that operates in harmony with surrounding ecosystems, aiming to optimize material flows and cycles (Wahrlich & Simioni, 2019). It is a key tool in achieving the goals of IE, which include reducing energy and material consumption, minimizing waste generation, and emulating the best features of biological ecosystems (Gallopoulos, 2006).
+In the context of IE, MFA is used to promote the concept of an industrial system that operates in harmony with surrounding ecosystems, aiming to optimize material flows and cycles (Wahrlich \& Simioni, 2019). It is a key tool in achieving the goals of IE, which include reducing energy and material consumption, minimizing waste generation, and emulating the best features of biological ecosystems (Gallopoulos, 2006).
 
 ## Environmentally-extended input-output analysis
 Environmentally-extended input-output analysis (EEIO) is a methodology under the framework of industrial ecology. Industrial ecology is a rapidly growing field that systematically examines local, regional, and global materials, and energy flows in products, processes, industrial sectors, and economies (Cockerill, 2013). It aims to reduce environmental burdens throughout the product life cycle, from the extraction of raw materials to the production of goods, their use, and the management of the resulting wastes (Lifset, 1997).
@@ -53,13 +53,13 @@ These models focus on the processes that drive changes in a system and how these
 
 Cockerill, K. (2013). A Failure Reveals Success A Comparative Analysis of Environmental Education, Education for Sustainable Development, and Industrial Ecology Education. Journal of Industrial Ecology.
 
-Lifset, R., & Graedel, T. (2002). Industrial Ecology: Goals and Definitions. In A Handbook of Industrial Ecology.
+Lifset, R., \& Graedel, T. (2002). Industrial Ecology: Goals and Definitions. In A Handbook of Industrial Ecology.
 
-Laudwe, R. A., & Taylor-Smith, R. E. (1998). Lucent Industrial Ecology Faculty Fellowship Program. Journal of Industrial Ecology.
+Laudwe, R. A., \& Taylor-Smith, R. E. (1998). Lucent Industrial Ecology Faculty Fellowship Program. Journal of Industrial Ecology.
 
-Wahrlich, J., & Simioni, F. J. (2019). Industrial symbiosis in the forestry sector: A case study in southern Brazil. Journal of Industrial Ecology.
+Wahrlich, J., \& Simioni, F. J. (2019). Industrial symbiosis in the forestry sector: A case study in southern Brazil. Journal of Industrial Ecology.
 
-Yang, Y., Liu, B., Wang, P., Chen, W-Q., & Smith, T. M. (2020). Toward sustainable climate change adaptation. Journal of Industrial Ecology.
+Yang, Y., Liu, B., Wang, P., Chen, W-Q., \& Smith, T. M. (2020). Toward sustainable climate change adaptation. Journal of Industrial Ecology.
 
 Gallopoulos, N. (2006). Industrial ecology: some directions for research. Journal of Industrial Ecology.
 

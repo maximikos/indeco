@@ -2,7 +2,7 @@ title : "" # Environmental systems analysis
 author: International Society for Industrial Ecology
 copyright: "2023"
 logo: 'nemora_logo_small.png'
-exclude_patterns: [docs/python/*]
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 
 ################################################################################
 # Short description about the book
@@ -19,6 +19,8 @@ html:
   use_issues_button         : true  # Whether to add an "open an issue" button
   
   use_edit_page_button      : true  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
+
+  use_multitoc_numbering    : false
 
   extra_navbar              : Visit our <a href="https://github.com/maximikos/indeco">GitHub Repository</a>
     <div>This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>  # Will be displayed underneath the left navbar. (Or simply remove this line to display extra_navbar, i.e. put "")
@@ -40,6 +42,8 @@ html:
     &#x1F3D4; &#127754; &#x1F332; <a href="./special/privacy.md">Privacy policy</a>
     </p>
 
+only_build_toc_files: false # privacy.md is not part of toc and has to be built as well
+
 ################################################################################
 # Settings for external services
 # Sphinx settings
@@ -50,7 +54,10 @@ sphinx:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     language                  : en   # include explicitly for accessibility
     today_fmt                 : '%d %b %Y'
-    mathjax_path            : https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    mathjax_path              : https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    suppress_warnings         : ["mystnb.unknown_mime_type"]
+    
+    
 
 
 # Binder settings
@@ -63,9 +70,13 @@ binder:
 # Notebook and repo settings
 # Notebooks
 execute:
-  execute_notebooks           : off # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
+  execute_notebooks           : auto # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off"). Cache avoid re-execution
+  timeout                     : 100 # Time each notebook cell is allowed to run, in seconds
+  allow_errors                : true
+  stderr_output               : show
+  nb_execution_show_tb        : true
 
-notebook_interface            : "notebook" # Interact link settings
+notebook_interface            : "notebook" # Interact link settings. Or choose "jupyterlab" or "classic"
 
 # Launch button settings
 repository:
@@ -86,7 +97,14 @@ latex:
 # Parse and render settings
 parse:
   myst_enable_extensions:
+    - amsmath
     - colon_fence
+    - deflist
     - dollarmath
+    - html_admonition
+    - html_image
     - linkify
+    - replacements
+    - smartquotes
     - substitution
+    - tasklist

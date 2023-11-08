@@ -16,11 +16,11 @@ IE takes a systems view of industrial activity, particularly focusing on design 
 
 ````{tab-set}
 ```{tab-item} LCA
-> Lifecycle assessment (LCA) is a methodology under the framework of industrial ecology that systematically examines the environmental impacts of a product or service throughout its entire life cycle, from raw material extraction to end-of-life disposal (Yang et al., 2020). It aims to identify key environmental "hot spots" of a process and provide insights for potential improvement (Wells & Orsato, 2005).
+> Lifecycle assessment (LCA) is a methodology under the framework of industrial ecology that systematically examines the environmental impacts of a product or service throughout its entire life cycle, from raw material extraction to end-of-life disposal (Yang et al., 2020). It aims to identify key environmental "hot spots" of a process and provide insights for potential improvement (Wells \& Orsato, 2005).
 ```
 
 ```{tab-item} MFA
-> Material flow analysis (MFA) is another tool used in industrial ecology to track the flow of materials within a system, such as an industrial sector or an entire economy (Yang et al., 2020). It helps in understanding the patterns of resource use and waste generation, thereby informing strategies for resource conservation and waste reduction (Wells & Orsato, 2005).
+> Material flow analysis (MFA) is another tool used in industrial ecology to track the flow of materials within a system, such as an industrial sector or an entire economy (Yang et al., 2020). It helps in understanding the patterns of resource use and waste generation, thereby informing strategies for resource conservation and waste reduction (Wells \& Orsato, 2005).
 ```
 
 ```{tab-item} EE-IO
@@ -41,19 +41,19 @@ Graedel, T. E., & Allenby, B. R. (1995). Industrial ecology. Prentice Hall.
 
 Gallopoulos, N. E. (2006). Industrial ecology: some directions for research. Journal of Industrial Ecology, 1(1), 13-19.
 
-Laudwe, R. A., & Taylor-Smith, R. E. (1998). Lucent Industrial Ecology Faculty Fellowship Program. Journal of Industrial Ecology, 2(4), 15-18.
+Laudwe, R. A., \& Taylor-Smith, R. E. (1998). Lucent Industrial Ecology Faculty Fellowship Program. Journal of Industrial Ecology, 2(4), 15-18.
 
 Lifset, R. (1997). A Metaphor, a Field, and a Journal. Journal of Industrial Ecology, 1(1), 1-4.
 
-Wahrlich, J., & Simioni, F. J. (2019). Industrial symbiosis in the forestry sector: A case study in southern Brazil. Journal of Industrial Ecology, 23(6), 1414-1426.
+Wahrlich, J., \& Simioni, F. J. (2019). Industrial symbiosis in the forestry sector: A case study in southern Brazil. Journal of Industrial Ecology, 23(6), 1414-1426.
 
 den Hond, F. (2000). Industrial ecology: A review. Regional Environmental Change, 1(2), 60-69.
 
 Journal of Industrial Ecology. (2005). Pulp nonfiction - Regionalized dynamic model of the US pulp and paper industry. Journal of Industrial Ecology, 9(1), 85-102.
 
-Wells, P., & Orsato, R. J. (2005). Redesigning the industrial ecology of the automobile. Journal of Industrial Ecology.
+Wells, P., \& Orsato, R. J. (2005). Redesigning the industrial ecology of the automobile. Journal of Industrial Ecology.
 
-Yang, Y., Liu, B., Wang, P., Chen, W. Q., & Smith, T. M. (2020). Toward sustainable climate change adaptation. Journal of Industrial Ecology.
+Yang, Y., Liu, B., Wang, P., Chen, W. Q., \& Smith, T. M. (2020). Toward sustainable climate change adaptation. Journal of Industrial Ecology.
 
 
 
