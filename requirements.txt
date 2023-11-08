@@ -1,12 +1,12 @@
 # Contains the Python package requirements for any code executed during "build" or for interactive code via Binder. For the latter case, the .binder/requirements.txt file points here.
-jupyter-book
+jupyter-book~=0.13
 ghp-import
 sphinx-thebe
 pandas
 plotly
-myst-parser
-myst-nb
+myst-parser~=0.15
+myst-nb~=0.13
 altair
 vega_datasets
 bokeh
-jupytext
+# jupytext
