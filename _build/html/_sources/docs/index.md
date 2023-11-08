@@ -28,7 +28,7 @@ If you are curious to learn how this kind of questions can be answered, you migh
 On the following pages, you will be introduced to the general mindset necessary for such complex analysis, the research methods as such (including life cycle assessment, material flow analysis, and input-output analysis), and examples of how they are applied. In addition, we are planning on presenting real-life research examples.
 :::
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4LQQZMaXMSY?si=jxlDLFIs8ZpU7bOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style='display: block; margin: 0 auto;' width="560" height="315" src="https://www.youtube.com/embed/4LQQZMaXMSY?si=jxlDLFIs8ZpU7bOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div id="current_date">
     <script>
